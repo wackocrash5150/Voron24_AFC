@@ -6,7 +6,7 @@
             "spool_id": "",
             "color": "",
             "tool_loaded": false,
-            "hub_loaded": false
+            "hub_loaded": true
         },
         "leg2": {
             "index": 2,
@@ -14,7 +14,7 @@
             "spool_id": "",
             "color": "",
             "tool_loaded": false,
-            "hub_loaded": false
+            "hub_loaded": true
         },
         "leg3": {
             "index": 3,
@@ -30,7 +30,7 @@
             "spool_id": "",
             "color": "",
             "tool_loaded": false,
-            "hub_loaded": false
+            "hub_loaded": true
         }
     }
 }
