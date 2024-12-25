@@ -1,44 +1,52 @@
 {
     "Turtle_1": {
         "leg1": {
-            "spool_id": "",
-            "material": "",
+            "spool_id": "16",
+            "material": "ABS",
             "color": "#000000",
-            "weight": 0,
-            "command": null,
+            "weight": 0.0,
+            "runout_lane": "NONE",
+            "map": "T0",
             "index": 1,
             "tool_loaded": false,
-            "hub_loaded": true
+            "hub_loaded": false,
+            "status": ""
         },
         "leg2": {
-            "spool_id": "",
-            "material": "",
-            "color": "#000000",
-            "weight": 0,
-            "command": null,
+            "spool_id": "18",
+            "material": "ABS",
+            "color": "#ff0000",
+            "weight": 644.3192077330586,
+            "runout_lane": "NONE",
+            "map": "T1",
             "index": 2,
             "tool_loaded": false,
-            "hub_loaded": true
+            "hub_loaded": false,
+            "status": ""
         },
         "leg3": {
-            "spool_id": "",
-            "material": "",
-            "color": "#000000",
-            "weight": 0,
-            "command": null,
+            "spool_id": "4",
+            "material": "ABS",
+            "color": "#1958CE",
+            "weight": 1000.0,
+            "runout_lane": "NONE",
+            "map": "T2",
             "index": 3,
             "tool_loaded": false,
-            "hub_loaded": false
+            "hub_loaded": false,
+            "status": ""
         },
         "leg4": {
-            "spool_id": "",
-            "material": "",
-            "color": "#000000",
-            "weight": 0,
-            "command": null,
+            "spool_id": "8",
+            "material": "ABS",
+            "color": "#FFFFFF",
+            "weight": 1000.0,
+            "runout_lane": "NONE",
+            "map": "T3",
             "index": 4,
             "tool_loaded": false,
-            "hub_loaded": true
+            "hub_loaded": false,
+            "status": ""
         }
     }
 }
