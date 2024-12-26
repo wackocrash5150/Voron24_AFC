@@ -1,22 +1,22 @@
 {
     "Turtle_1": {
         "leg1": {
-            "spool_id": "16",
-            "material": "ABS",
-            "color": "#000000",
-            "weight": 0.0,
+            "spool_id": "2",
+            "material": "PETG",
+            "color": "#DFDCD9",
+            "weight": 976.4452737815681,
             "runout_lane": "NONE",
             "map": "T0",
             "index": 1,
             "tool_loaded": false,
-            "hub_loaded": false,
-            "status": ""
+            "hub_loaded": true,
+            "status": null
         },
         "leg2": {
-            "spool_id": "18",
+            "spool_id": "16",
             "material": "ABS",
-            "color": "#ff0000",
-            "weight": 644.3192077330586,
+            "color": "#000000",
+            "weight": 29.0,
             "runout_lane": "NONE",
             "map": "T1",
             "index": 2,
@@ -40,7 +40,7 @@
             "spool_id": "8",
             "material": "ABS",
             "color": "#FFFFFF",
-            "weight": 1000.0,
+            "weight": 978.0,
             "runout_lane": "NONE",
             "map": "T3",
             "index": 4,
