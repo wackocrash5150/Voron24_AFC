@@ -39,8 +39,8 @@
         "leg4": {
             "spool_id": "",
             "material": "",
-            "color": "#000000",
-            "weight": 0,
+            "color": "",
+            "weight": "",
             "runout_lane": "NONE",
             "map": "T3",
             "index": 4,
