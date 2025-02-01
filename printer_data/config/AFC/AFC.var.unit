@@ -1,10 +1,10 @@
 {
     "Turtle_1": {
         "leg1": {
-            "spool_id": "3",
-            "material": "ABS",
-            "color": "#000000",
-            "weight": 91.08352247265054,
+            "spool_id": "",
+            "material": "",
+            "color": "",
+            "weight": "",
             "runout_lane": "NONE",
             "map": "T0",
             "index": 1,
