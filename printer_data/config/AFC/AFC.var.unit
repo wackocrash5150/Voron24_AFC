@@ -1,52 +1,107 @@
 {
     "Turtle_1": {
-        "leg1": {
-            "spool_id": "",
-            "material": "",
-            "color": "",
-            "weight": "",
-            "runout_lane": "NONE",
+        "lane1": {
+            "name": "lane1",
+            "unit": "Turtle_1",
+            "hub": "Turtle_1",
+            "extruder": "extruder",
+            "buffer": "Turtle_1",
+            "buffer_status": "Advancing",
+            "lane": 1,
             "map": "T0",
-            "index": 1,
+            "load": true,
+            "prep": true,
             "tool_loaded": false,
-            "hub_loaded": false,
-            "status": ""
-        },
-        "leg2": {
-            "spool_id": "",
-            "material": "",
-            "color": "",
-            "weight": "",
+            "loaded_to_hub": true,
+            "material": "PETG",
+            "spool_id": "7",
+            "color": "#000000",
+            "weight": 179.15511018743098,
+            "extruder_temp": 240,
             "runout_lane": "NONE",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "Loaded"
+        },
+        "lane2": {
+            "name": "lane2",
+            "unit": "Turtle_1",
+            "hub": "Turtle_1",
+            "extruder": "extruder",
+            "buffer": "Turtle_1",
+            "buffer_status": "Advancing",
+            "lane": 2,
             "map": "T1",
-            "index": 2,
+            "load": true,
+            "prep": true,
             "tool_loaded": false,
-            "hub_loaded": false,
-            "status": ""
-        },
-        "leg3": {
-            "spool_id": "",
-            "material": "",
-            "color": "",
-            "weight": "",
+            "loaded_to_hub": true,
+            "material": "PETG",
+            "spool_id": "13",
+            "color": "#fd0606",
+            "weight": 969.8225366716372,
+            "extruder_temp": 240,
             "runout_lane": "NONE",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "Loaded"
+        },
+        "lane3": {
+            "name": "lane3",
+            "unit": "Turtle_1",
+            "hub": "Turtle_1",
+            "extruder": "extruder",
+            "buffer": "Turtle_1",
+            "buffer_status": "Advancing",
+            "lane": 3,
             "map": "T2",
-            "index": 3,
+            "load": true,
+            "prep": true,
             "tool_loaded": false,
-            "hub_loaded": false,
-            "status": ""
-        },
-        "leg4": {
-            "spool_id": "",
-            "material": "",
-            "color": "",
-            "weight": "",
+            "loaded_to_hub": true,
+            "material": "PETG",
+            "spool_id": "14",
+            "color": "#0640fd",
+            "weight": 967.9284181390076,
+            "extruder_temp": 240,
             "runout_lane": "NONE",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "Loaded"
+        },
+        "lane4": {
+            "name": "lane4",
+            "unit": "Turtle_1",
+            "hub": "Turtle_1",
+            "extruder": "extruder",
+            "buffer": "Turtle_1",
+            "buffer_status": "Advancing",
+            "lane": 4,
             "map": "T3",
-            "index": 4,
+            "load": true,
+            "prep": true,
             "tool_loaded": false,
-            "hub_loaded": false,
-            "status": ""
+            "loaded_to_hub": true,
+            "material": "PETG",
+            "spool_id": "15",
+            "color": "#ffffff",
+            "weight": 773.7682554420143,
+            "extruder_temp": 240,
+            "runout_lane": "NONE",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "Loaded"
+        }
+    },
+    "system": {
+        "current_load": null,
+        "num_units": 1,
+        "num_lanes": 4,
+        "num_extruders": 1,
+        "extruders": {
+            "extruder": {
+                "lane_loaded": null
+            }
         }
     }
 }
