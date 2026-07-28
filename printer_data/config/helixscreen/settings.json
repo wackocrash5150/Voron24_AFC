@@ -3,7 +3,7 @@
   "appearance": {
     "show_widget_labels": true
   },
-  "config_version": 18,
+  "config_version": 20,
   "dark_mode": true,
   "display": {
     "animations_enabled": false,
@@ -12,6 +12,8 @@
     "dim_sec": 600,
     "drm_device": "",
     "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "screensaver_type": 2,
     "sleep_sec": 1800,
     "sleep_while_printing": false,
@@ -42,12 +44,6 @@
     "protocol": "raw"
   },
   "language": "en",
-  "led": {
-    "auto_state": {
-      "enabled": null
-    },
-    "selected_strips": null
-  },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 2
@@ -55,39 +51,6 @@
   "preset": "ad5m_pro",
   "print_start_history": {
     "entries": [
-      {
-        "phases": {
-          "7": 89
-        },
-        "temp_bucket": 2,
-        "timestamp": 1782226655,
-        "total": 108
-      },
-      {
-        "phases": {
-          "7": 86
-        },
-        "temp_bucket": 2,
-        "timestamp": 1782228952,
-        "total": 118
-      },
-      {
-        "phases": {
-          "7": 98
-        },
-        "temp_bucket": 2,
-        "timestamp": 1782230764,
-        "total": 154
-      },
-      {
-        "phases": {
-          "7": 90,
-          "9": 1
-        },
-        "temp_bucket": 2,
-        "timestamp": 1782232930,
-        "total": 109
-      },
       {
         "phases": {
           "7": 97
@@ -111,6 +74,65 @@
         "temp_bucket": 2,
         "timestamp": 1782307661,
         "total": 112
+      },
+      {
+        "phases": {
+          "7": 95
+        },
+        "temp_bucket": 2,
+        "timestamp": 1782481022,
+        "total": 112
+      },
+      {
+        "phases": {
+          "7": 97
+        },
+        "temp_bucket": 2,
+        "timestamp": 1782483785,
+        "total": 114
+      },
+      {
+        "phases": {
+          "7": 143,
+          "9": 1
+        },
+        "temp_bucket": 2,
+        "timestamp": 1782578795,
+        "total": 166
+      },
+      {
+        "phases": {
+          "7": 85,
+          "9": 1
+        },
+        "temp_bucket": 2,
+        "timestamp": 1782579259,
+        "total": 106
+      },
+      {
+        "phases": {
+          "7": 114
+        },
+        "temp_bucket": 2,
+        "timestamp": 1782580856,
+        "total": 163
+      },
+      {
+        "phases": {
+          "7": 100
+        },
+        "temp_bucket": 2,
+        "timestamp": 1782594710,
+        "total": 128
+      },
+      {
+        "phases": {
+          "7": 68,
+          "9": 1
+        },
+        "temp_bucket": 2,
+        "timestamp": 1782737113,
+        "total": 87
       }
     ]
   },
@@ -138,8 +160,8 @@
       "extra_sensors": {},
       "fans": {
         "aux": "fan_generic internal_fan",
-        "chamber": "fan_generic chamber_fan",
-        "exhaust": "fan_generic external_fan",
+        "chamber": "",
+        "exhaust": "",
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
@@ -219,7 +241,7 @@
             "temperature_sensor octopus_pro",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-06-25T18:03:33Z"
+          "timestamp": "2026-07-28T15:05:09Z"
         },
         "optional": [
           "fan_generic chamber_fan",
@@ -239,9 +261,7 @@
         "scroll_throw": 25
       },
       "leds": {
-        "auto_state": {
-          "mappings": null
-        },
+        "auto_state": {},
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -689,7 +709,8 @@
                   "colspan": 1,
                   "config": {
                     "icon": "home",
-                    "macro": "AFC_PARK"
+                    "macro": "AFC_PARK",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:3",
@@ -715,9 +736,7 @@
       },
       "printer_image": "shipped:voron-v2",
       "printer_name": "Voron 2.4 AFC - s/n: V2.1133,  BT-010",
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
